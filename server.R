@@ -20,7 +20,7 @@ library(ggraph)
 library(ggplot2)
 library(data.table)
 
-path <- "czech2" 
+path <- "input" 
 
 GroupedMedian <- function(frequencies, intervals, sep = NULL, trim = NULL) {
   # If "sep" is specified, the function will try to create the 

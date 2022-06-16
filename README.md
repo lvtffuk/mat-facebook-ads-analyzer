@@ -37,7 +37,7 @@ docker run \
 -d \
 --restart=unless-stopped \
 --name=mat-facebook-ads-analyzer \
--v '/absolute/path/to/czech2/dir:/usr/src/app/czech2' \
+-v '/absolute/path/to/input/dir:/usr/src/app/input' \
 ghcr.io/zabkwak/mat-facebook-ads-analyzer:latest  
 ```
 The app will be accessible on `http://localhost:8080`.

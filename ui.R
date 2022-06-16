@@ -4,7 +4,7 @@ library(shinycssloaders)
 library(readr)
 library(shinythemes)
 
-path <- "czech2"
+path <- "input"
 
 pages <- read_csv(paste0(path, "/total_ads_per_page.csv", sep=""))
 pages <- pages  %>% arrange(desc(n_ads))
