@@ -32,7 +32,7 @@ RUN install2.r --error ggplot2
 RUN install2.r --error data.table
 
 ENV PORT=8080
-LABEL org.opencontainers.image.source https://github.com/zabkwak/mat-facebook-ads-analyzer
+LABEL org.opencontainers.image.source https://github.com/lvtffuk/mat-facebook-ads-analyzer
 EXPOSE 8080
 
 CMD [ "Rscript", "main.R" ]
